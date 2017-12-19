@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         menuObjects.add(new MenuObject("手游直播",R.drawable.icon_menu_game_live));
         menuObjects.add(new MenuObject("摄像直播",R.drawable.icon_menu_camera_live));
 
+
         return menuObjects;
     }
 
