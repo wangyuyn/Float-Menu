@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private ImageView menu;
     private FragmentManager fragmentManager;
     private MenuDialogFragment mMenuDialogFragment;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         menuParams.setmAnimationDuration(500);
         mMenuDialogFragment = MenuDialogFragment.newInstance(menuParams);
         mMenuDialogFragment.setItemClickListener(this);
+
     }
 
     private void initToolbar() {
