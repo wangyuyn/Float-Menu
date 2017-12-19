@@ -78,11 +78,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         menuObjects.add(new MenuObject("手游直播",R.drawable.icon_menu_game_live));
         menuObjects.add(new MenuObject("摄像直播",R.drawable.icon_menu_camera_live));
 
-//        menuObjects.add(new MenuObject("语音开黑",R.drawable.icon_menu_audio_room));
-//        menuObjects.add(new MenuObject("拍个视频",R.drawable.icon_menu_publish_video));
-//        menuObjects.add(new MenuObject("动态发布",R.drawable.icon_menu_publish_moments));
-//        menuObjects.add(new MenuObject("手游直播",R.drawable.icon_menu_game_live));
-//        menuObjects.add(new MenuObject("摄像直播",R.drawable.icon_menu_camera_live));
         return menuObjects;
     }
 
@@ -99,6 +94,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onMenuItemClick(View clickedView, int position) {
-        Toast.makeText(this,position+"",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,position+"",Toast.LENGTH_SHORT).show();
     }
 }
